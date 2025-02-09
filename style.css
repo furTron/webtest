@@ -9,15 +9,11 @@ body {
 
 header, section, footer {
     padding: 20px;
-    margin: 20px auto;
+    margin: 10px auto;
     max-width: 800px;
     background: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    background-image: "image.png";
 }
 
 h1, h2 {
@@ -27,4 +23,14 @@ h1, h2 {
 a {
     color: #007BFF;
     text-decoration: none;
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.scroll-container img {
+    max-height: 500px; /* Wysokość obrazków */
+    margin-right: 10px; /* Odstęp między obrazkami */
 }
